@@ -1,0 +1,15 @@
+v -1 1 0
+v -1 0 0
+v 1 0 0
+v 1 1 0
+v 0 2 0
+f 1 2 3 4 5
+
+#function fan_triangulation(vertices)
+#triangles ← empty list
+#for index ← 2 to length(vertices) - 1
+#tri ← triangle(vertices[1], vertices[index], vertices[index+1])
+#add tri to triangles
+#end for
+#return triangles
+#end function
